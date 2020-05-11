@@ -5,16 +5,19 @@
   padding: 0;
   box-sizing: border-box;
 }
+.container{
+  margin:5px;
+}
 /* css layout */
 header{
-  height: 200px;
+  height: 150px;
   margin-bottom: 10px;
   /* debug */
   background-color: brown;
 }
 
 footer{
-  height: 200px;
+  height: 150px;
   margin-top: 10px;
   /* debug */
   background-color: tomato;
