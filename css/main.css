@@ -5,3 +5,50 @@
   padding: 0;
   box-sizing: border-box;
 }
+/* css layout */
+header{
+  height: 200px;
+  margin-bottom: 10px;
+  /* debug */
+  background-color: brown;
+}
+
+footer{
+  height: 200px;
+  margin-top: 10px;
+  /* debug */
+  background-color: tomato;
+}
+
+main::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.side-l, .side-r {
+  float: left;
+  width: 30%;
+}
+
+.side-l{
+  /* debug */
+  height: 400px;
+  background-color: forestgreen;
+}
+
+.side-r section {
+  /* debug */
+  height: 280px;
+  background-color: forestgreen;
+  margin-bottom: 20px;
+}
+
+.center {
+float: left;
+width: 34%;
+margin: 0 3%;
+/* debug */
+background-color: greenyellow;
+height: 600px;
+}
