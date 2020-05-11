@@ -10,14 +10,14 @@
 }
 /* css layout */
 header{
-  height: 150px;
+  height: 200px;
   margin-bottom: 10px;
   /* debug */
   background-color: brown;
 }
 
 footer{
-  height: 150px;
+  height: 200px;
   margin-top: 10px;
   /* debug */
   background-color: tomato;
