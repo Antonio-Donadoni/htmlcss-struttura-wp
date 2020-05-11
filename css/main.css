@@ -5,8 +5,8 @@
   padding: 0;
   box-sizing: border-box;
 }
-.container{
-  margin:5px;
+main{
+  padding: 5px;
 }
 /* css layout */
 header{
@@ -23,7 +23,7 @@ footer{
   background-color: tomato;
 }
 
-main::after{
+.main-box::after{
   content: "";
   display: table;
   clear: both;
